@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(15, 14, 12);
+}
+
+.container{
+    max-width: 1000px;    
+    margin: auto;
+    font-family: 'Inter',sans-serif;
+}
+
+header{
+    background-color: #4A7371;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+main{
+    padding: 15px;
+    overflow: hidden;
+    background: url('../images/jogadores.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.formContainer{
+    max-width: 300px;
+    padding: 15px;
+    background-color: #c6d6d5b9;
+    float: right;
+}
+
+.formContainer h2, .formContainer p{
+    margin-bottom: 20px;
+}
+
+.formContainer > h2{
+    font-size: 1.3em;
+}
+
+form > input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 15px;
+}
+
+#checkbox{
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    background-color: #012323;
+    color: white;
+    font-weight: 900;
+}
+
+footer{
+    background-color: #7FA6A2;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.picture{
+    height: 250px;
+}
+
+.descricao{
+    display: inline-block;
+    max-width: 50%;
+    margin-left: 15px;
+}
+
+
+.descricao h2,p{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:650px) {
+    .descricao{
+        display: block;
+        margin-top: 30px;
+        margin: auto;
+    }
+
+    .formContainer{
+        float: none;
+        margin: auto;
+    }
+}
+
