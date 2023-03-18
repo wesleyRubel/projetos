@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'passionOne';
+    src: url('../fonts/PassionOne-Black.ttf') format('truetype');
+    src: url('../fonts/PassionOne-Bold.ttf') format('truetype');
+    src: url('../fonts/PassionOne-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'sriracha';
+    src: url('../fonts/Sriracha-Regular.ttf') format('truetype');
+}
+
+:root{
+    --passionOne:'passionOne';
+    --sriracha:'sriracha';
+    --cor1:black;
+    --cor2:#021601d3;
+    --cor3:#4b4f47be;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+header{
+    background-color: var(--cor1);
+    padding: 40px;
+    text-align: center;
+}
+
+header > h1{
+    font-family: var(--passionOne);
+    font-size: 10vw;
+    color: white;
+}
+
+header > p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-left: 40px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+p.versos{
+    font-family: var(--sriracha);
+    font-size: 3.5vw;
+    line-height: 2em;
+    margin-bottom: 65px;
+}
+
+section#sc2{
+    background: white url('../imagens/background001.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+section#sc2 > p{
+    background-color: var(--cor2);
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    text-shadow: 2px 2px 6px black;
+}
+
+section#sc4{
+    background: white url('../imagens/background002.jpg') center center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+section#sc4 > p{
+    background-color: var(--cor3);
+    display: inline-block;
+    color: white;
+    padding: 5px;    
+    text-shadow: 2px 2px 6px black;
+}
+
+footer{
+    background-color: var(--cor1);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+
+footer a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer a::after{
+    content: '\00A0\1F517';
+}
+
+
