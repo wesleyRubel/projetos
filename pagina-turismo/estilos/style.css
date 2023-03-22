@@ -88,10 +88,6 @@ nav > .navegacao{
     margin-right: 10px;
 }
 
-section{
-    /*padding: 15px;*/
-}
-
 section > h3{
     font-size: 1.5em;
     color: var(--cor3);
