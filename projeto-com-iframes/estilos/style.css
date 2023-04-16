@@ -6,7 +6,8 @@
 }
 
 body{
-    background: black;
+    background: black url('../imagens/fundo-madeira.jpg') center center no-repeat;
+    background-size: cover;
 }
 
 main{
@@ -18,5 +19,9 @@ section#telefone{
     position: absolute;
     width: 248px;
     height: 500px;
-    background: blue;
+    background:url('../imagens/frame-iphone-550.png') center center no-repeat;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
