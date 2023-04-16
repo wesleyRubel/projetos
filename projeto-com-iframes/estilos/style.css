@@ -60,3 +60,9 @@ section#botoes img:hover{
     box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.603);
     transition: transform 0.5s, border 1s;
 }
+
+@media screen and (max-width:500px) {
+    section#telefone{
+        transform: translate(-60%,-50%);
+    }    
+}
